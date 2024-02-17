@@ -1,0 +1,169 @@
+﻿body {
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    /*background-color: #f4f4f4;*/
+    background: #111111;
+}
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #111111;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    /*border-bottom: #35424a 3px solid;*/
+    margin-left: 30px;
+}
+    header .title {
+        float: left;
+    }
+        header .title h1 {
+            margin: 0;
+        }
+    header .account {
+        float: right;
+    }
+
+.account {
+    background: #35424a;
+    min-height: 30px;
+    padding: 10px 20px 10px 20px;
+}
+    .account:hover {
+        color: #aaaaaa;
+        background: #5ECAFF;
+    }
+    .account a {
+        color: #ffffff;
+        font-size: 20px;
+        text-align:center;
+    }
+
+.title {
+    margin-left: 0px;
+}
+
+.navigationbar {
+    margin: auto;
+    overflow: hidden;
+    background: #35424a;
+    text-transform: uppercase;
+    padding-top: 10px;
+    min-height: 30px;
+}
+    .navigationbar nav {
+        float: left;
+    }
+    .navigationbar ul {
+        margin: 0;
+        padding: 0;
+    }
+    .navigationbar li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+    .navigationbar a:hover {
+        color: #aaaaaa;
+    }
+
+
+section {
+    /*background: #111111;*/
+    background: #aaaaaa;
+    color: #ffffff;
+    padding-top: 30px;
+}
+    section a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    section nav {
+        float: left;
+    }
+    section ul {
+        margin: 0;
+        padding: 0;
+    }
+    section li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+
+.applabel {
+    padding-top: 10px;
+    margin: auto;
+}
+    .applabel a {
+        display: inline;
+        font-size: 40px;
+        padding: 0px 20px 0px 20px;
+        padding-top: 0px;
+    }
+        .applabel a:hover {
+            font-weight: bold;
+        }
+
+    .applabel a1 {
+        display: inline;
+        font-size: 40px;
+        padding: 0px 20px 0px 20px;
+        padding-top: 0px;
+    }
+    .applabel p {
+        padding: 0px 20px 0px 20px;
+        margin-top: 0px;
+        font-size: 18px;
+        color: #777777;
+    }
+
+
+.link {
+    color: #0000EE;
+}
+
+.description {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+font-size: 11px;
+
+    /*background-color:#e8491d;*/
+
+}
+.text1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+    /*background-color:#e8491d;*/
+    
+}
+.text2 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+    /*background-color:#e8491d;*/
+    
+}
+
+footer {
+    padding: 20px;
+    margin-top: 0px;
+    color: #ffffff;
+    /*background-color:#e8491d;*/
+    background-color: #111111;
+    text-align:center;
+}
